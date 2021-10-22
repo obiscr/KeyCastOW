@@ -616,8 +616,8 @@ void fixDeskOrigin() {
     }
 }
 void loadSettings() {
-    labelSettings.keyStrokeDelay = GetPrivateProfileInt(L"KeyCastOW", L"keyStrokeDelay", 500, iniFile);
-    labelSettings.lingerTime = GetPrivateProfileInt(L"KeyCastOW", L"lingerTime", 1200, iniFile);
+    labelSettings.keyStrokeDelay = GetPrivateProfileInt(L"KeyCastOW", L"keyStrokeDelay", 2500, iniFile);
+    labelSettings.lingerTime = GetPrivateProfileInt(L"KeyCastOW", L"lingerTime", 2500, iniFile);
     labelSettings.fadeDuration = GetPrivateProfileInt(L"KeyCastOW", L"fadeDuration", 310, iniFile);
     labelSettings.bgColor = GetPrivateProfileInt(L"KeyCastOW", L"bgColor", RGB(75, 75, 75), iniFile);
     labelSettings.textColor = GetPrivateProfileInt(L"KeyCastOW", L"textColor", RGB(255, 255, 255), iniFile);
