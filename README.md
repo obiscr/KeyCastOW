@@ -2,7 +2,7 @@
 
 
 
-# 下载源码
+## 下载源码
 
 源项目（英文）下载地址： https://github.com/brookhong/KeyCastOW 
 
@@ -10,7 +10,7 @@
 
 
 
-# 编译
+## 编译
 
 下载完成之后，用 **Virsual Studio** 打开此项目。
 
@@ -38,9 +38,9 @@
 
 再次点击工具，会看到 刚才添加的菜单：Virsual Studio 2019 Command Prompt，点击打开，会出现一个cmd窗口，在cmd进入项目的主目录，执行 `msbuild /p:platform=win32 /p:Configuration=Release` ，之后会在Release目录生成 **keycastow.exe**。
 
+<iframe src="//player.bilibili.com/player.html?bvid=BV1Ev411u7pu" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
 
-
-# 附录
+## 附录
 
 ### 一、 Visual Studio版本与平台工具集版本号的对应关系：
 
